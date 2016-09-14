@@ -1,0 +1,19 @@
+
+
+<p>
+  <strong>First name:</strong>
+  <%= @usertest.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @usertest.last_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @usertest.email %>
+</p>
+
+<%= link_to 'Edit', edit_usertest_path(@usertest) %> |
+<%= link_to 'Back', usertests_path %>
